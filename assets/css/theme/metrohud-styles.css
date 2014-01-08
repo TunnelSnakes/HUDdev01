@@ -1,0 +1,91 @@
+/* FONTS -----
+	
+	HEADER 	  - font-family: 'cartogothic_stdregular';
+	
+	BODY TEXT - font-family: 'cartogothic_stdregular';
+
+*/
+
+/* CONST STYLES ----- */
+
+body {
+	background: #1e1e1e;
+	color: #F0F0F0;
+	font-family: 'cartogothic_stdregular';
+}
+
+.container {
+	width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+	font-family: 'cartogothic_stdregular';
+	font-weight: 500;
+	color: #F0F0F0;
+	padding-top:10px;
+	padding-left:10px;	
+}
+
+.metro-header {
+	height:75px;
+	width:100%;
+	background:#666;
+}
+
+.metro-layer {
+	height:250px;
+	margin-bottom:10px;
+	width:100%;
+	position:relative;
+	background:no-repeat;
+}
+
+.metro-layer .util-box {
+	height:250px;
+	width:250px;
+	background:#fff;
+}
+
+.metro-layer .util-content {
+	height:250px;
+	width:500px;
+	background:rgba(0,0,0,0.50);
+}
+
+[data-role="layer-1"] {
+	background-image:url(../../img/sfm-02.jpg);
+	background-size:cover;
+}
+
+[data-role="layer-2"] {
+	background-image:url(../../img/sfm-03.jpg);
+	background-size:cover;
+}
+
+[data-role="layer-3"] {
+	background-image:url(../../img/sfm-04.jpg);
+	background-size:cover;
+	background-position:0px;
+}
+
+[data-role="layer-4"] {
+	background-image:url(../../img/sfm-01.jpg);
+	background-size:cover;
+}
+
+/* FLOATS ----- */
+
+.fl-l {
+	float: left;
+}
+
+.fl-r {
+	float: right;
+}
