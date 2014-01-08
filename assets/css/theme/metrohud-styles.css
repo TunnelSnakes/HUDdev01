@@ -59,16 +59,40 @@ h6 {
 	background:#161616;
 }
 
+.eil {
+	left:0px;
+}
+
+.eir {
+	right:0px;
+}
+
+.metro-layer:hover .eil {
+	left:50px;
+}
+
+.metro-layer:hover .eir {
+	right:50px;
+}
+
 .metro-layer .util-box {
+	position:relative;
 	height:250px;
 	width:250px;
 	background:#fff;
+	-moz-transition:ease-in-out 0.5s;
+}
+
+.metro-layer .util-box:hover {
+	background-color:rgba(117,134,255,1);
 }
 
 .metro-layer .util-content {
+	position:relative;
 	height:250px;
 	width:500px;
 	background:rgba(0,0,0,0.50);
+	-moz-transition:ease-in-out 0.5s;
 }
 
 .metro-layer .util-box .util-icon {
