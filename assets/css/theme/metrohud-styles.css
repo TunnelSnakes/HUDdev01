@@ -27,16 +27,18 @@ h4,
 h5,
 h6 { 
 	font-family: 'cartogothic_stdregular';
-	font-weight: 500;
+	font-weight: bold;
 	color: #F0F0F0;
 	padding-top:10px;
-	padding-left:10px;	
+	padding-left:10px;
 }
 
 .metro-header {
 	height:75px;
 	width:100%;
-	background:#666;
+	background-image:url(dark_mosaic.png);
+	background-repeat:repeat;
+	overflow:hidden;
 }
 
 .metro-header h1 {
@@ -45,6 +47,8 @@ h6 {
 	position:relative;
 	bottom:12.5px;
 	-moz-transition:ease-in-out 0.5s;
+	font-weight:lighter;
+	color:rgba(117,134,255,1);
 }
 
 .metro-header h1:hover {
@@ -53,7 +57,7 @@ h6 {
 
 .metro-layer {
 	height:250px;
-	margin-bottom:10px;
+	margin-top:10px;
 	width:100%;
 	position:relative;
 	background:#161616;
@@ -81,10 +85,13 @@ h6 {
 	width:250px;
 	background:#fff;
 	-moz-transition:ease-in-out 0.5s;
+	border-radius:125px;
+	box-shadow:0 0 5px rgba(0,0,0,0.05);
 }
 
-.metro-layer .util-box:hover {
+.metro-layer:hover .util-box {
 	background-color:rgba(117,134,255,1);
+	box-shadow:0 0 5px rgba(0,0,0,0.50);
 }
 
 .metro-layer .util-content {
@@ -95,10 +102,19 @@ h6 {
 	-moz-transition:ease-in-out 0.5s;
 }
 
+.metro-layer .util-content p {
+	padding:10px;
+	margin-top:-10px;
+	font-weight:lighter;
+}
+
 .metro-layer .util-box .util-icon {
-	color:#000;
 	text-align:center;
 	font-size:95px;
+}
+
+.metro-layer .util-box .util-icon a {
+	color:#000;
 }
 
 /* FLOATS ----- */
