@@ -9,7 +9,8 @@
 /* CONST STYLES ----- */
 
 body {
-	background: #1e1e1e;
+	background-image:url(crossed_stripes.png);
+	background-repeat:repeat;
 	color: #F0F0F0;
 	font-family: 'cartogothic_stdregular';
 }
@@ -46,7 +47,9 @@ h6 {
 	line-height:80px;
 	position:relative;
 	bottom:12.5px;
+	transition:ease-in-out 0.5s;
 	-moz-transition:ease-in-out 0.5s;
+	-webkittransition:ease-in-out 0.5s;
 	font-weight:lighter;
 	color:rgba(117,134,255,1);
 }
@@ -60,7 +63,7 @@ h6 {
 	margin-top:10px;
 	width:100%;
 	position:relative;
-	background:#161616;
+	background-color:#161616;
 }
 
 .eil {
@@ -83,7 +86,9 @@ h6 {
 	position:relative;
 	height:250px;
 	width:250px;
-	background:#fff;
+	background-color:#fff;
+	transition:ease-in-out 0.5s;
+	-webkit-transition:ease-in-out 0.5s;
 	-moz-transition:ease-in-out 0.5s;
 	border-radius:125px;
 	box-shadow:0 0 5px rgba(0,0,0,0.05);
@@ -98,8 +103,10 @@ h6 {
 	position:relative;
 	height:250px;
 	width:500px;
-	background:rgba(0,0,0,0.50);
+	background-color:rgba(0,0,0,0.50);
+	transition:ease-in-out 0.5s;
 	-moz-transition:ease-in-out 0.5s;
+	-webkit-transition:ease-in-out 0.5s;
 }
 
 .metro-layer .util-content p {
